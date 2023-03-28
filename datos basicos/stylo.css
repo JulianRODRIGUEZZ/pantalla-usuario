@@ -188,7 +188,7 @@ bottom: 74.3%;
 }
 .input {
   
-  max-width: 190px;
+  max-width: 990px;
   height: 44px;
   background-color: #ffffff;
   border-radius: .5rem;
@@ -262,4 +262,327 @@ bottom: 74.3%;
   left: 58px;
   top: 1084px;
 
+}
+.card1{
+  position: absolute;
+  width: 988px;
+  height: 456px;
+  left: 688px;
+  top: 408px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+.datos{
+  position: absolute;
+  left: 350px;
+}
+.alternativa{
+  position: absolute;
+  left: 30px;
+  top: 85px;
+}
+.input-group9{
+  position: absolute;
+  left: 169px;
+  top: 15px;
+  width: 500px;
+}
+.input1 {
+  
+  width: 540px;
+  height: 28px;
+  background-color: #ffffff;
+  border-radius: .5rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+.evaluar{
+  position: absolute;
+  left: 30px;
+  top: 145px;
+
+}
+.certificado{
+  position: absolute;
+  left: 780px;
+  top: 150px;
+}
+.toggler {
+  width: 72px;
+  margin: 40px auto;
+}
+
+.toggler input {
+  display: none;
+}
+
+.toggler label {
+  display: block;
+  position: absolute;
+  left: 870px;
+  top: 160px;
+  width: 72px;
+  height: 36px;
+  border: 1px solid #3FBF77;
+  border-radius: 36px;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.toggler label::after {
+  display: block;
+  border-radius: 100%;
+  background-color: #d7062a;
+  content: '';
+  animation-name: toggler-size;
+  animation-duration: 0.15s;
+  animation-timing-function: ease-out;
+  animation-direction: forwards;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+}
+
+.toggler label::after, .toggler label .toggler-on, .toggler label .toggler-off {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  width: 26px;
+  height: 26px;
+  transform: translateY(-50%) translateX(-50%);
+  transition: left 0.15s ease-in-out, background-color 0.2s ease-out, width 0.15s ease-in-out, height 0.15s ease-in-out, opacity 0.15s ease-in-out;
+}
+
+.toggler input:checked + label::after, .toggler input:checked + label .toggler-on, .toggler input:checked + label .toggler-off {
+  left: 75%;
+}
+
+.toggler input:checked + label::after {
+  background-color: #50ac5d;
+  animation-name: toggler-size2;
+}
+
+.toggler .toggler-on, .toggler .toggler-off {
+  opacity: 1;
+  z-index: 2;
+}
+
+.toggler input:checked + label .toggler-off, .toggler input:not(:checked) + label .toggler-on {
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+
+.toggler .path {
+  fill: none;
+  stroke: #fefefe;
+  stroke-width: 7px;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+@keyframes toggler-size {
+  0%, 100% {
+    width: 26px;
+    height: 26px;
+  }
+
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@keyframes toggler-size2 {
+  0%, 100% {
+    width: 26px;
+    height: 26px;
+  }
+
+  50% {
+    width: 20px;
+    height: 20px;
+  }
+}
+ 
+.input-group10{
+  position: absolute;
+  left: 169px;
+  top: 20px;
+  width: 500px;
+}
+.fecha1{
+  position: absolute;
+  left: 30px;
+  top: 215px;
+}
+.input-group11{
+  position: absolute;
+  left: 169px;
+  top: 20px;
+  width: 500px;
+}
+.finalizacion{
+  position: absolute;
+  left: 30px;
+  top: 285px;
+}
+.input-group12{
+  position: absolute;
+  left: 169px;
+  top: 15px;
+  width: 500px;
+}
+.pendiente{
+  position: absolute;
+  left: 30px;
+  top: 345px;
+}
+.input-group13{
+  position: absolute;
+  left: 169px;
+  top: 20px;
+  width: 500px;
+}
+.card2{
+  position: absolute;
+  width: 838px;
+  height: 456px;
+  left: 688px;
+  top: 928px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+.empresa{
+  position: absolute;
+  left: 376px;
+}
+.conformador{
+  position: absolute;
+  left: 30px;
+  top: 85px;
+}
+.input-group14{
+  position: absolute;
+  left: 169px;
+  top: 15px;
+  width: 500px;
+}
+/*  */
+.nit{
+  position: absolute;
+  left: 30px;
+  top: 145px;
+}
+.input-group15{
+  position: absolute;
+  left: 169px;
+  top: 20px;
+  width: 500px;
+}
+.arl{
+  position: absolute;
+  left: 30px;
+  top: 215px;
+}
+.input-group16{
+  position: absolute;
+  left: 169px;
+  top: 20px;
+  width: 500px;
+}
+.eps{
+  position: absolute;
+  left: 30px;
+  top: 285px;
+}
+.input-group17{
+  position: absolute;
+  left: 169px;
+  top: 15px;
+  width: 500px;
+}
+.card3{
+  position: absolute;
+  width: 838px;
+  height: 326px;
+  left: 688px;
+  top: 1448px;
+  border-radius: 30px;
+  background: #e0e0e0;
+  box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+}
+
+.instructor{
+  position: absolute;
+  left: 30px;
+  top: 35px;
+}
+.input-group18{
+  position: absolute;
+  left: 169px;
+  top: 15px;
+  width: 500px;
+}
+/*  */
+.correo{
+  position: absolute;
+  left: 30px;
+  top: 95px;
+}
+.input-group19{
+  position: absolute;
+  left: 169px;
+  top: 20px;
+  width: 500px;
+}
+.fecha{
+  position: absolute;
+  left: 30px;
+  top: 165px;
+}
+.input-group20{
+  position: absolute;
+  left: 169px;
+  top: 20px;
+  width: 500px;
+}
+.boton3{
+  position: absolute;
+  width: 500px;
+  height: 202px;
+  left: 337px;
+  top: 80px;
+}
+.button1 {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color:#3FBF77;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button1:hover {
+  background-color:#3FBF77;
+  box-shadow: 0px 15px 20px rgb(64, 140, 255);
+  color:#ffffff;
+  transform: translateY(-7px);
+}
+
+.button1:active {
+  transform: translateY(-1px);
 }
